@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(3, 1, 15, 0.671);
+}
+
+header{
+    
+    width: auto;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 350%;
+}
+
+h1{
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+}
+
+h2{
+    width: auto;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+}
+
+a{
+    width: auto;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+}
