@@ -1,0 +1,71 @@
+.rs-sidenav-default,
+.rs-sidenav-default .rs-dropdown-toggle,
+.rs-sidenav-default .rs-sidenav-item,
+.rs-sidenav-default .rs-sidenav-toggle-button {
+  background-color: #f7f7fa;
+  background-color: hsl(0, 0%, 100%);
+  
+}
+
+.rs-sidenav-default {
+  height: 92vh;
+}
+
+.collapsed {
+    width: 80px; /* The width when collapsed */
+    transition: width 0.3s; /* Add a transition for the width property */
+  }
+
+  .sidebar {
+    border-right: 1px solid #ccc; /* Adjust the style and color as needed */
+  }
+
+
+.collapse-btn {
+    margin: 20px; 
+    position: relative; 
+    top: 0; 
+    right: 0;
+    background-color: #3979da;
+    border-style: none;
+ }
+ 
+
+.sidebar-items {
+  background-color: transparent;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* .sidebar-items {
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    padding: 10px;
+    color: #333; 
+  }
+   */
+
+
+.sidebar-items {
+    /* Your normal link styles here */
+  
+    /* Add a hover effect, for example changing the background color and text color */
+    transition: background-color 0.2s, color 0.2s;
+
+  }
+  
+  .sidebar-items:hover {
+    background-color: lightskyblue;
+    color: rgb(0, 0, 0);
+  }
+
+  .sidebar-items:active {
+    background-color: #3979da; /* Change the background color for the clicked item */
+    color: #ffffff; /* Change the text color for the clicked item */
+  }

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.items-con-main {
+    width: 100vw;
+    background-color: #EDF5FF; 
+
+}
+.items-con {
+    margin: 50px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    padding: 25px;
+    border-radius: 10px;
+}
+.items-con-top{
+    display: flex;
+}
+
+.items-con-main h1 {
+    margin-bottom: 1.5%;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.items-con-mid{
+    margin: 20px;
+}
+
+.rs-table-cell-header .rs-table-cell-content {
+    background-color: rgb(231, 231, 231);
+    color: black;
+}
+.items-con-top-search{
+    width: 100%;
+}
